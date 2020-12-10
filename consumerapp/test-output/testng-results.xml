@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="361093" started-at="2020-08-12T07:14:00Z" finished-at="2020-08-12T07:20:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="361093" started-at="2020-08-12T07:14:00Z" finished-at="2020-08-12T07:20:01Z">
+      <class name="app.consumerApp.featureTest.ServiceRequestFeatureTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeTest" is-config="true" duration-ms="40324" started-at="2020-08-12T07:14:00Z" finished-at="2020-08-12T07:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeClass" is-config="true" duration-ms="30153" started-at="2020-08-12T07:14:40Z" finished-at="2020-08-12T07:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeMethod" is-config="true" duration-ms="556" started-at="2020-08-12T07:15:10Z" finished-at="2020-08-12T07:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_verify_UI()[pri:1, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="Test_verify_UI" duration-ms="24782" started-at="2020-08-12T07:15:11Z" description="To check the UI of SR screen when there is no SR details" finished-at="2020-08-12T07:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_verify_UI -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeMethod" is-config="true" duration-ms="458" started-at="2020-08-12T07:15:35Z" finished-at="2020-08-12T07:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_raiseNewRequest1()[pri:2, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="Test_raiseNewRequest1" duration-ms="58087" started-at="2020-08-12T07:15:36Z" description="To test the scenario of raising the new request with already configured primary address" finished-at="2020-08-12T07:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_raiseNewRequest1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeMethod" is-config="true" duration-ms="377" started-at="2020-08-12T07:16:34Z" finished-at="2020-08-12T07:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_verifyConversationScreen()[pri:3, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="Test_verifyConversationScreen" duration-ms="3705" started-at="2020-08-12T07:16:34Z" description="To verify the conversation screen, when the SR has already been raised" finished-at="2020-08-12T07:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_verifyConversationScreen -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeMethod" is-config="true" duration-ms="426" started-at="2020-08-12T07:16:38Z" finished-at="2020-08-12T07:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_raiseNewRequest2()[pri:4, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="Test_raiseNewRequest2" duration-ms="29737" started-at="2020-08-12T07:16:38Z" description="To test the scenario of creating SR by changing the address" finished-at="2020-08-12T07:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_raiseNewRequest2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeMethod" is-config="true" duration-ms="346" started-at="2020-08-12T07:17:08Z" finished-at="2020-08-12T07:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_serviecRequest_Reply()[pri:5, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="Test_serviecRequest_Reply" duration-ms="81509" started-at="2020-08-12T07:17:09Z" description="To test the scenario of Replying back on The SR" finished-at="2020-08-12T07:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_serviecRequest_Reply -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="beforeMethod" is-config="true" duration-ms="281" started-at="2020-08-12T07:18:30Z" finished-at="2020-08-12T07:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_VerifyAttachment_And_ScheduleDateTime()[pri:6, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="Test_VerifyAttachment_And_ScheduleDateTime" duration-ms="84333" started-at="2020-08-12T07:18:30Z" description="To test the attachment and schedule date&amp;time functionality while creating the new request" finished-at="2020-08-12T07:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_VerifyAttachment_And_ScheduleDateTime -->
+        <test-method status="PASS" signature="Test_After_Test()[pri:0, instance:app.consumerApp.featureTest.ServiceRequestFeatureTest@64485a47]" name="Test_After_Test" is-config="true" duration-ms="5960" started-at="2020-08-12T07:19:55Z" finished-at="2020-08-12T07:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_After_Test -->
+      </class> <!-- app.consumerApp.featureTest.ServiceRequestFeatureTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="app.consumerApp.featureTest.LoyaltyAfterAddProductFeatureTest">
+        <methods>
+          <include name="Test_Verify_UI_And_Functionalities_After_AddProduct"/>
+          <include name="Test_SetupVariables"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- app.consumerApp.featureTest.LoyaltyAfterAddProductFeatureTest -->
+      <class name="app.consumerApp.featureTest.ProfileFeatureTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Test_After_Test"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="Test_Configure_Details"/>
+          <include name="Test_verify_UI"/>
+        </methods>
+      </class> <!-- app.consumerApp.featureTest.ProfileFeatureTest -->
+      <class name="app.consumerApp.featureTest.DocBoxFeatureTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Test_After_Test"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="Test_verify_UI"/>
+        </methods>
+      </class> <!-- app.consumerApp.featureTest.DocBoxFeatureTest -->
+      <class name="app.consumerApp.featureTest.ServiceRequestFeatureTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="Test_After_Test"/>
+          <include name="Test_verify_UI"/>
+        </methods>
+      </class> <!-- app.consumerApp.featureTest.ServiceRequestFeatureTest -->
+      <class name="app.consumerApp.featureTest.LoyaltyFeatureTest">
+        <methods>
+          <include name="Test_SetupVariables"/>
+          <include name="Test_Check_Referrer_LoyaltyBalance"/>
+          <include name="beforeTest"/>
+          <include name="Test_After_Test"/>
+        </methods>
+      </class> <!-- app.consumerApp.featureTest.LoyaltyFeatureTest -->
+      <class name="app.consumerApp.featureTest.AddProductFeatureTest">
+        <methods>
+          <include name="Test_SetupVariables"/>
+          <include name="Test_Verify_UI_And_Functionaity_For_AddProduct_Till_SupercategorySelection"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- app.consumerApp.featureTest.AddProductFeatureTest -->
+      <class name="app.consumerApp.featureTest.LoginFeatureTest">
+        <methods>
+          <include name="setup_All_Variable"/>
+          <include name="Test_After_Test"/>
+          <include name="check_signupPossitiveFlow"/>
+          <include name="beforeTest"/>
+          <include name="check_login_Password_Set"/>
+        </methods>
+      </class> <!-- app.consumerApp.featureTest.LoginFeatureTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
